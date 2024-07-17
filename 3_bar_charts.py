@@ -1,3 +1,4 @@
+# Description: This script creates a bar chart with multiple bars for each label.
 import matplotlib.pyplot as plt
 
 # Data
@@ -35,9 +36,9 @@ plt.bar(labels, values5, color='purple', label='Fifth', bottom=values4)
 plt.bar(labels, values6, color='orange', label='Sixth', bottom=values5)
 plt.bar(labels, values7, color='brown', label='Seventh', bottom=values6)
 plt.bar(labels, values8, color='pink', label='Eighth', bottom=values7)
-
-plt.legend()
-plt.show()
+plt.xlabel('x-axis label')
+plt.ylabel('y-axis label')
+plt.title('Bar Chart Title')
 
 # Save the plot
-plt.savefig('results/3_Bar_Charts.png')
+plt.savefig('results/bar_charts.png')
