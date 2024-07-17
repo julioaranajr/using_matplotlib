@@ -33,5 +33,4 @@ ax.set_title('Volume and percent change')
 ax.grid(True)
 fig.tight_layout()
 
-plt.show()
 plt.savefig('results/scatter_demo.png')

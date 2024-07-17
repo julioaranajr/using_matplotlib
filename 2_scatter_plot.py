@@ -1,3 +1,4 @@
+# Create a scatter plot and save it as a PNG file
 import matplotlib
 # Import the pyplot module
 import matplotlib.pyplot as plt
